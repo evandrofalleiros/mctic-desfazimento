@@ -1,0 +1,35 @@
+:root{ 
+    /* Colors */
+    
+    /* --primary-color: #36486e; */
+    --primary-color: linear-gradient(-45deg, #30336b, #36486e);
+    --secondary-color: #e2a91b;
+    --primary-color-lighten: #2c88fb;
+    --text-color-ligthen: #8793b6;
+    --text-color: #3e496d;
+    --warning-color: #d6443d;
+    --background-lighten: #f8f8f7;
+    --header-background: #ffffff;
+    --search-bar-background: #30336b;
+
+    --title-bar-background-basis: #6a89cc;
+    --context-bar-background-basis: #aae9d5;
+    --title-bar-background:linear-gradient(rgba(0,0,0,0.1) 0%, var(--title-bar-background-basis) 15%), var(--title-bar-background-basis);
+    --context-bar-background:linear-gradient(rgba(0,0,0,0.2) 0%, var(--context-bar-background-basis) 15%), var(--context-bar-background-basis);
+    
+    /* Sizes and spacings*/
+    
+    --header-height: 5.625em; /*90px*/
+    --default-padding: 2em;
+    --default-border-radius: 0.2em;
+    --header-padding: 0 var(--default-padding);
+    --menu-item-height: 3.125em; /*50px*/
+    --search-bar-height: 5.625em; 
+    --opened-menu-width: 70vw;
+    --retracted-menu-width: 5em;
+    --busca-container-width: var(--opened-menu-width);
+      
+    /* Shadows */
+  
+    --border-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
